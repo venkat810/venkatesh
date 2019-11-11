@@ -1,0 +1,10 @@
+l=[1,2,3,'venky','ramu',5]
+a=[]
+b=[]
+for i in l:
+  if type(i)==int:
+    a.append(i)
+  if type(i)==str:
+    b.append(i)
+print(a)
+print(b)
