@@ -1,4 +1,4 @@
-num=int(input('enter your number:'))
+'''num=int(input('enter your number:'))
 sum=0
 temp=num
 while temp>0:
@@ -8,4 +8,19 @@ while temp>0:
 if (num==sum):
     print(num,'is a amstrong number')
 else:
-    print(num,'is not a amstrong number')
+    print(num,'is not a amstrong number')'''
+    
+    
+    
+
+for i in range(1001):
+    num=i
+    result=0
+    n=len(str(i))
+    while (i!=0):
+        digit=i%10
+        result+=digit**n
+        i//=10
+    if num==result:
+        print(num)
+    
